@@ -1,0 +1,81 @@
+.reservation-card {
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  background: var(--white);
+  position: sticky;
+  top: calc(var(--header-height) + 24px);
+}
+
+.reservation-header {
+  margin-bottom: 24px;
+}
+
+.price-amount {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.price-label {
+  font-size: 16px;
+  color: var(--text-dark);
+}
+
+.booking-inputs {
+  border: 1px solid var(--text-light);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.dates-picker {
+  border-bottom: 1px solid var(--text-light);
+}
+
+.check-in, .check-out, .guests-picker {
+  padding: 10px 12px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.border-right {
+  border-right: 1px solid var(--text-light);
+}
+
+.guests-picker {
+  position: relative;
+}
+
+.chevron-down {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-label {
+  font-size: 10px;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.input-value {
+  font-size: 14px;
+}
+
+.reserve-btn {
+  margin-top: 16px;
+}
+
+.price-breakdown {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.price-row {
+  font-size: 16px;
+  color: var(--text-dark);
+}
